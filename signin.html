@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>로그인 예제: 회원가입</title>
+</head>
+<body>
+  <h1>회원가입을 진행합니다.</h1>
+  <p>가입 후에도 회원탈퇴를 진행하거나 아이디를 수정하는 것이 가능하니 편한 마음으로 가입해 주세요!</p>
+
+  <input type="text" size="50" placeholder="아이디를 입력해주세요." id="id"><br>
+  <input type="password" size="50" placeholder="비밀번호를 입력해주세요." id="password">
+
+  <p style="color: red;">
+    강력한 비밀번호를 생성하여 남에게 노출되지 않도록 해 주세요.<br>
+    (물론 어차피 자신의 컴퓨터에만 저장되기는 하지만.. ㅋㅋ)
+  </p>
+
+  <button onclick="signin()">지금 바로 회원가입합니다.</button>
+</body>
+<script src="signin.js"></script>
+</html>
